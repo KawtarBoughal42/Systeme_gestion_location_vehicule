@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="de3e7b82-d186-427e-8b25-bb0992f82b99" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Microservice-Administrateur/src/main/java/com/project/systeme__gestion__location__vehicules/microserviceadministrateur/Controller/AdministrateurController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Microservice-Administrateur/src/main/java/com/project/systeme__gestion__location__vehicules/microserviceadministrateur/Entity/Administrateur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Microservice-Administrateur/src/main/java/com/project/systeme__gestion__location__vehicules/microserviceadministrateur/MicroserviceAdministrateurApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Microservice-Administrateur/src/main/java/com/project/systeme__gestion__location__vehicules/microserviceadministrateur/Repository/AdministrateurRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Microservice-Administrateur/src/main/java/com/project/systeme__gestion__location__vehicules/microserviceadministrateur/Service/AdministrateurService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Microservice-Agence/src/main/java/com/project/systeme__gestion__location__vehicules/microserviceagence/Controller/AgenceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Microservice-Agence/src/main/java/com/project/systeme__gestion__location__vehicules/microserviceagence/Entity/Agence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Microservice-Agence/src/main/java/com/project/systeme__gestion__location__vehicules/microserviceagence/Repository/AgenceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Microservice-Agence/src/main/java/com/project/systeme__gestion__location__vehicules/microserviceagence/Service/AgenceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Microservice-AvisEvaluation/src/main/java/com/project/systeme__gestion__location__vehicules/microserviceavisevaluation/Controller/AvisEvaluationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Microservice-AvisEvaluation/src/main/java/com/project/systeme__gestion__location__vehicules/microserviceavisevaluation/Entity/AvisEvaluation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Microservice-AvisEvaluation/src/main/java/com/project/systeme__gestion__location__vehicules/microserviceavisevaluation/Repository/AvisEvaluationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Microservice-AvisEvaluation/src/main/java/com/project/systeme__gestion__location__vehicules/microserviceavisevaluation/Service/AvisEvaluationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Microservice-Client/src/main/java/com/project/systeme__gestion__location__vehicules/microserviceclient/Controller/ClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Microservice-Client/src/main/java/com/project/systeme__gestion__location__vehicules/microserviceclient/Entity/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Microservice-Client/src/main/java/com/project/systeme__gestion__location__vehicules/microserviceclient/Repository/ClientRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Microservice-Client/src/main/java/com/project/systeme__gestion__location__vehicules/microserviceclient/Service/ClientService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Microservice-Contact/src/main/java/com/project/systeme__gestion__location__vehicules/microservicecontact/Controller/ContactController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Microservice-Contact/src/main/java/com/project/systeme__gestion__location__vehicules/microservicecontact/Entity/Contact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Microservice-Contact/src/main/java/com/project/systeme__gestion__location__vehicules/microservicecontact/Repository/ContactRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Microservice-Contact/src/main/java/com/project/systeme__gestion__location__vehicules/microservicecontact/Service/ContactService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Microservice-Discount/src/main/java/com/project/systeme__gestion__location__vehicules/microservicediscount/Controller/DiscountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Microservice-Discount/src/main/java/com/project/systeme__gestion__location__vehicules/microservicediscount/Entity/Discount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Microservice-Discount/src/main/java/com/project/systeme__gestion__location__vehicules/microservicediscount/Repository/DiscountRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Microservice-Discount/src/main/java/com/project/systeme__gestion__location__vehicules/microservicediscount/Service/DiscountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Microservice-Gestionnaire/src/main/java/com/project/systeme__gestion__location__vehicules/microservicegestionnaire/Controller/GestionnaireController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Microservice-Gestionnaire/src/main/java/com/project/systeme__gestion__location__vehicules/microservicegestionnaire/Entity/Gestionnaire.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Microservice-Gestionnaire/src/main/java/com/project/systeme__gestion__location__vehicules/microservicegestionnaire/Repository/GestionnaireRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Microservice-Gestionnaire/src/main/java/com/project/systeme__gestion__location__vehicules/microservicegestionnaire/Service/GestionnaireService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Microservice-Marque/src/main/java/com/project/systeme__gestion__location__vehicules/microservicemarque/Controller/MarqueController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Microservice-Marque/src/main/java/com/project/systeme__gestion__location__vehicules/microservicemarque/Entity/Marque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Microservice-Marque/src/main/java/com/project/systeme__gestion__location__vehicules/microservicemarque/Repository/MarqueRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Microservice-Marque/src/main/java/com/project/systeme__gestion__location__vehicules/microservicemarque/Service/MarqueService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Microservice-Paiement/src/main/java/com/project/systeme__gestion__location__vehicules/microservicepaiement/Controller/PaiementController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Microservice-Paiement/src/main/java/com/project/systeme__gestion__location__vehicules/microservicepaiement/Entity/Paiement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Microservice-Paiement/src/main/java/com/project/systeme__gestion__location__vehicules/microservicepaiement/Repository/PaiementRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Microservice-Paiement/src/main/java/com/project/systeme__gestion__location__vehicules/microservicepaiement/Service/PaiementService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Microservice-Reservation/src/main/java/com/project/systeme__gestion__location__vehicules/microservicereservation/Controller/ReservationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Microservice-Reservation/src/main/java/com/project/systeme__gestion__location__vehicules/microservicereservation/Entity/Reservation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Microservice-Reservation/src/main/java/com/project/systeme__gestion__location__vehicules/microservicereservation/Repository/ReservationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Microservice-Reservation/src/main/java/com/project/systeme__gestion__location__vehicules/microservicereservation/Service/ReservationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Microservice-Vehicule/src/main/java/com/project/systeme__gestion__location__vehicules/microservicevehicule/Controller/VehiculeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Microservice-Vehicule/src/main/java/com/project/systeme__gestion__location__vehicules/microservicevehicule/Entity/Vehicule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Microservice-Vehicule/src/main/java/com/project/systeme__gestion__location__vehicules/microservicevehicule/Repository/VehiculeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Microservice-Vehicule/src/main/java/com/project/systeme__gestion__location__vehicules/microservicevehicule/Service/VehiculeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Systeme_gestion_location_vehicule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-discovery/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2oZbNMjHQC1LJEhIZ0u6NirPAkF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.MicroserviceClientApplication.executor": "Run",
+    "Maven.microservice-client [clean].executor": "Run",
+    "Notification.DisplayName-DoNotAsk-Database detector": "Database detector",
+    "Notification.DoNotAsk-Database detector": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.EurekaDiscoveryApplication.executor": "Run",
+    "Spring Boot.GatewayServiceApplication.executor": "Run",
+    "Spring Boot.MicroserviceAdministrateurApplication.executor": "Run",
+    "Spring Boot.MicroserviceAgenceApplication.executor": "Run",
+    "Spring Boot.MicroserviceAvisEvaluationApplication.executor": "Run",
+    "Spring Boot.MicroserviceClientApplication.executor": "Run",
+    "Spring Boot.MicroserviceContactApplication.executor": "Run",
+    "Spring Boot.MicroserviceDiscountApplication.executor": "Run",
+    "Spring Boot.MicroserviceGestionnaireApplication.executor": "Run",
+    "Spring Boot.MicroserviceMarqueApplication.executor": "Run",
+    "Spring Boot.MicroservicePaiementApplication.executor": "Run",
+    "Spring Boot.MicroserviceReservationApplication.executor": "Run",
+    "Spring Boot.MicroserviceVehiculeApplication.executor": "Run",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "21",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "C:/Users/bough/Desktop/Systeme_gestion_location_vehicule/Microservice-Client/src/main/java/com/project/systeme__gestion__location__vehicules/microserviceclient",
+    "last_opened_file_path": "C:/Users/bough/Desktop/Systeme_gestion_location_vehicule",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "spring",
+    "show.migrate.to.gradle.popup": "false",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.project.systeme__gestion__location__vehicules.microserviceclient" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bough\Desktop\Systeme_gestion_location_vehicule" />
+      <recent name="C:\Users\bough\Desktop\Systeme_gestion_location_vehicule\Microservice-Client" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.project.systeme__gestion__location__vehicules.microserviceadministrateur" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.MicroserviceVehiculeApplication">
+    <configuration name="MicroserviceClientApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.project.systeme__gestion__location__vehicules.microserviceclient.MicroserviceClientApplication" />
+      <module name="Microservice-Client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.project.systeme__gestion__location__vehicules.microserviceclient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Config-Server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.project.systeme__gestion__location__vehicules.configserver.ConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaDiscoveryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="eureka-discovery" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.project.systeme__gestion__location__vehicules.eurekadiscovery.EurekaDiscoveryApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="gateway-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.project.systeme__gestion__location__vehicules.gatewayservice.GatewayServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroserviceAdministrateurApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="Microservice-Administrateur" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.project.systeme__gestion__location__vehicules.microserviceadministrateur.MicroserviceAdministrateurApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroserviceAgenceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="Microservice-Agence" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.project.systeme__gestion__location__vehicules.microserviceagence.MicroserviceAgenceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroserviceAvisEvaluationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="Microservice-AvisEvaluation" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.project.systeme__gestion__location__vehicules.microserviceavisevaluation.MicroserviceAvisEvaluationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroserviceClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="microservice-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.project.systeme__gestion__location__vehicules.microserviceclient.MicroserviceClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroserviceContactApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="Microservice-Contact" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.project.systeme__gestion__location__vehicules.microservicecontact.MicroserviceContactApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroserviceDiscountApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="Microservice-Discount" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.project.systeme__gestion__location__vehicules.microservicediscount.MicroserviceDiscountApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroserviceGestionnaireApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="Microservice-Gestionnaire" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.project.systeme__gestion__location__vehicules.microservicegestionnaire.MicroserviceGestionnaireApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroserviceMarqueApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="Microservice-Marque" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.project.systeme__gestion__location__vehicules.microservicemarque.MicroserviceMarqueApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroservicePaiementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="Microservice-Paiement" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.project.systeme__gestion__location__vehicules.microservicepaiement.MicroservicePaiementApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroserviceReservationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="Microservice-Reservation" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.project.systeme__gestion__location__vehicules.microservicereservation.MicroserviceReservationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroserviceVehiculeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="Microservice-Vehicule" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.project.systeme__gestion__location__vehicules.microservicevehicule.MicroserviceVehiculeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MicroserviceClientApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.21829.227" />
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-IU-242.21829.227" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringGeneralSettings">
+    <option name="showProfilesPanel" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="de3e7b82-d186-427e-8b25-bb0992f82b99" name="Changes" comment="" />
+      <created>1731080005359</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731080005359</updated>
+      <workItem from="1731080716949" duration="2785000" />
+      <workItem from="1731083555780" duration="345000" />
+      <workItem from="1731084563573" duration="318000" />
+      <workItem from="1731600591971" duration="91000" />
+      <workItem from="1731617997627" duration="4487000" />
+      <workItem from="1731668188803" duration="12763000" />
+      <workItem from="1732132616920" duration="28710000" />
+      <workItem from="1732270489780" duration="979000" />
+      <workItem from="1732274517161" duration="3690000" />
+      <workItem from="1732668297944" duration="96000" />
+      <workItem from="1732730148437" duration="7909000" />
+      <workItem from="1732804897387" duration="744000" />
+      <workItem from="1732811994307" duration="14000" />
+      <workItem from="1732813283174" duration="2364000" />
+      <workItem from="1732826070604" duration="3050000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

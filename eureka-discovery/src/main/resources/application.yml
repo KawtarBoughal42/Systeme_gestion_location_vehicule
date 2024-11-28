@@ -1,0 +1,48 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: r1
+          uri: lb://MICROSERVICE-ADMINISTRATEUR
+          predicates:
+            - Path= /administrateurs/**
+        - id: r2
+          uri: lb://MICROSERVICE-AGENCE
+          predicates:
+            - Path= /agences/**
+        - id: r3
+          uri: lb://MICROSERVICE-AVISEVALUATION
+          predicates:
+            - Path= /avisEvaluation/**
+        - id: r4
+          uri: lb://MICROSERVICE-CLIENT
+          predicates:
+            - Path= /clients/**
+        - id: r5
+          uri: lb://MICROSERVICE-CONTACT
+          predicates:
+            - Path= /contacts/**
+        - id: r6
+          uri: lb://MICROSERVICE-DISCOUNT
+          predicates:
+            - Path= /discounts/**
+        - id: r7
+          uri: lb://MICROSERVICE-GESTIONNAIRE
+          predicates:
+            - Path= /gestionnaires/**
+        - id: r8
+          uri: lb://MICROSERVICE-MARQUE
+          predicates:
+            - Path= /marques/**
+        - id: r9
+          uri: lb://MICROSERVICE-PAIEMENT
+          predicates:
+            - Path= /paiements/**
+        - id: r10
+          uri: lb://MICROSERVICE-RESERVATION
+          predicates:
+            - Path= /reservations/**
+        - id: r11
+          uri: lb://MICROSERVICE-VEHICULE
+          predicates:
+            - Path= /vehicules/**

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Config-Server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Microservice-Administrateur/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Microservice-Agence/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Microservice-AvisEvaluation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Microservice-Client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Microservice-Contact/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Microservice-Discount/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Microservice-Gestionnaire/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Microservice-Marque/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Microservice-Paiement/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Microservice-Reservation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Microservice-Vehicule/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-discovery/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gateway-service/src/main/java" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/microservice-client/pom.xml" />
+        <option value="$PROJECT_DIR$/Microservice-Reservation/pom.xml" />
+        <option value="$PROJECT_DIR$/Microservice-Agence/pom.xml" />
+        <option value="$PROJECT_DIR$/Microservice-Vehicule/pom.xml" />
+        <option value="$PROJECT_DIR$/Microservice-Paiement/pom.xml" />
+        <option value="$PROJECT_DIR$/Microservice-Gestionnaire/pom.xml" />
+        <option value="$PROJECT_DIR$/Microservice-Marque/pom.xml" />
+        <option value="$PROJECT_DIR$/Microservice-AvisEvaluation/pom.xml" />
+        <option value="$PROJECT_DIR$/Microservice-Discount/pom.xml" />
+        <option value="$PROJECT_DIR$/Microservice-Contact/pom.xml" />
+        <option value="$PROJECT_DIR$/Microservice-Administrateur/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway-service/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-discovery/pom.xml" />
+        <option value="$PROJECT_DIR$/Config-Server/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_22" project-jdk-name="21" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

@@ -1,0 +1,48 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: r1
+          uri: http://localhost:8080/
+          predicates:
+            - Path= /administrateurs/**
+        - id: r2
+          uri: http://localhost:8081/
+          predicates:
+            - Path= /agences/**
+        - id: r3
+          uri: http://localhost:9090/
+          predicates:
+            - Path= /avisEvaluation/**
+        - id: r4
+          uri: http://localhost:8484/
+          predicates:
+            - Path= /clients/**
+        - id: r5
+          uri: http://localhost:9092/
+          predicates:
+            - Path= /contacts/**
+        - id: r6
+          uri: http://localhost:9898/
+          predicates:
+            - Path= /discounts/**
+        - id: r7
+          uri: http://localhost:9595/
+          predicates:
+            - Path= /gestionnaires/**
+        - id: r8
+          uri: http://localhost:9393/
+          predicates:
+            - Path= /marques/**
+        - id: r9
+          uri: http://localhost:8989/
+          predicates:
+            - Path= /paiements/**
+        - id: r10
+          uri: http://localhost:8383/
+          predicates:
+            - Path= /reservations/**
+        - id: r11
+          uri: http://localhost:9797/
+          predicates:
+            - Path= /vehicules/**

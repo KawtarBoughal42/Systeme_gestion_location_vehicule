@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Microservice-Gestionnaire" />
+        <module name="Microservice-Administrateur" />
+        <module name="Microservice-Contact" />
+        <module name="Microservice-Reservation" />
+        <module name="Microservice-AvisEvaluation" />
+        <module name="Microservice-Vehicule" />
+        <module name="Microservice-Discount" />
+        <module name="Config-Server" />
+        <module name="Microservice-Agence" />
+        <module name="Microservice-Marque" />
+        <module name="gateway-service" />
+        <module name="Microservice-Paiement" />
+        <module name="microservice-client" />
+        <module name="eureka-discovery" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Config-Server" options="-parameters" />
+      <module name="Microservice-Administrateur" options="-parameters" />
+      <module name="Microservice-Agence" options="-parameters" />
+      <module name="Microservice-AvisEvaluation" options="-parameters" />
+      <module name="Microservice-Contact" options="-parameters" />
+      <module name="Microservice-Discount" options="-parameters" />
+      <module name="Microservice-Gestionnaire" options="-parameters" />
+      <module name="Microservice-Marque" options="-parameters" />
+      <module name="Microservice-Paiement" options="-parameters" />
+      <module name="Microservice-Reservation" options="-parameters" />
+      <module name="Microservice-Vehicule" options="-parameters" />
+      <module name="eureka-discovery" options="-parameters" />
+      <module name="gateway-service" options="-parameters" />
+      <module name="microservice-client" options="-parameters" />
+    </option>
+  </component>
+</project>
